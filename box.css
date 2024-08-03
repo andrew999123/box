@@ -1,0 +1,49 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+body{
+    font-family:"preconnect" ,sans-serif;
+
+}
+div{
+    
+    border:1px solid black;
+    height:100px;
+    width:100px;
+    background-color:salmon;
+    margin:20px auto;
+    /* margin-bottom:20px;
+    margin-top: 100px;
+    margin-left: 200px; */
+    display: flex;
+    text-align: center;
+    line-height: 50%;
+    border: none;
+    justify-content: center;
+    align-items: center;
+
+}
+div.red{
+    border-radius: 50%;
+    background-color: red;
+    /* justify-content: center;
+    align-items: center; */
+    font-size: 10px;
+}
+div.green{
+    background-color: green;
+    color:aliceblue;
+    /* line-height: 1000%; */
+    padding-bottom: 50px;
+    box-sizing: content-box;
+}
+div.blue{
+    background-color: blue;
+}
+/* h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+} */
